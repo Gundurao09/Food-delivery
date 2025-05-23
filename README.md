@@ -42,20 +42,18 @@ pip install fastapi uvicorn
 
 ## 🚀 2. Running the API Server
 uvicorn main:app --reload
+main: Replace with your Python filename (without .py).
+
+--reload: Automatically reloads the server on code changes.
 
 ---
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the repository**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/order-management-api.git
-cd order-management-api
-
-main: Replace with your Python filename (without .py).
-
---reload: Automatically reloads the server on code changes.
 
 
 
