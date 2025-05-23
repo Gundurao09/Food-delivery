@@ -10,3 +10,7 @@ A FastAPI-based RESTful API for managing food delivery orders with features like
 - View summary statistics (total orders and total amount)
 - Thread-safe in-memory order storage (no database required)
 
+## 📦 Setup Instructions
+### 1. Clone the repository
+- git clone [(https://github.com/Gundurao09/Food-delivery/)]
+- cd order-management-api
