@@ -30,3 +30,16 @@ A FastAPI-based RESTful API for managing food delivery orders with features like
 - uvicorn main:app --reload
 * Replace main with your Python filename (without .py)
 * The --reload option automatically restarts the server on code changes.
+  
+## 📘 API Endpoints Overview
+- POST /orders/ — Create a new order
+- GET /orders/ — List all orders
+- GET /orders/{order_id} — Get order details
+- PUT /orders/{order_id} — Update order status
+- GET /orders/summary — Get summary statistics
+
+## ⚠️ Known Limitations / Future Improvements (Optional)
+- Data is stored only in-memory and will reset on server restart.
+- Adding persistent storage like a database (SQLite, PostgreSQL) would improve durability.
+- Authentication & authorization not implemented yet.
+- More detailed validation and error handling can be added.
