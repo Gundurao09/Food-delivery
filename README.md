@@ -24,14 +24,6 @@ A FastAPI-based RESTful service for managing orders with features like status up
 
 ---
 
-## 🛠️ Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/your-username/order-management-api.git
-cd order-management-api
-
 ## 🐍 Create and Activate Virtual Environment
 
 ```bash
@@ -50,6 +42,16 @@ pip install fastapi uvicorn
 
 ## 🚀 2. Running the API Server
 uvicorn main:app --reload
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/order-management-api.git
+cd order-management-api
 
 main: Replace with your Python filename (without .py).
 
