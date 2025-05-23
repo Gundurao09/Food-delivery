@@ -28,5 +28,5 @@ A FastAPI-based RESTful API for managing food delivery orders with features like
 
 ## 🟢 Running the API Server
 - uvicorn main:app --reload
-Replace main with your Python filename (without .py)
-The --reload option automatically restarts the server on code changes.
+* Replace main with your Python filename (without .py)
+* The --reload option automatically restarts the server on code changes.
