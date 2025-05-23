@@ -13,4 +13,15 @@ A FastAPI-based RESTful API for managing food delivery orders with features like
 ## 📦 Setup Instructions
 ### 1. Clone the repository
 - git clone [(https://github.com/Gundurao09/Food-delivery/)]
-- cd order-management-api
+  
+### 2. Create and activate a virtual environment
+- python -m venv venv
+- macOS/Linux: source venv/bin/activate
+- Windows: venv\Scripts\activate
+
+### 3. Install required packages
+- pip install -r requirements.txt
+##### If you don’t have a requirements.txt file, create one with the following content:
+- fastapi
+- uvicorn
+- pydantic
